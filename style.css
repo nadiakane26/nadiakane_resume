@@ -1,14 +1,4 @@
 /*Default Body and Design */
-body {
-    font-family: "Times New Roman", Times, serif;
-    margin: 20px;
-    /* Space around elements */
-    line-height: 1.6;
-    /*Spacing between lines. Using the standard recommended */
-    display: flex;
-    /* Layout */
-}
-
 h1,
 h2,
 h3 {
@@ -28,13 +18,7 @@ h1 {
     /* Line below name */
 }
 
-.sidebar {
-    width: 250px;
-    background-color: #f0f8ff;
-    padding: 15px;
-    margin-right: 20px;
-    border-radius: 5px;
-}
+
 
 /*Profile picture */
 img {
@@ -45,10 +29,6 @@ img {
     margin-right: auto;
 }
 
-.summary {
-    text-align: justify;
-    margin: 10px 0;
-}
 
 /*Contact Information */
 .contact-info {
@@ -137,8 +117,6 @@ img {
     /* Line below name */
 }
 
-}
-
 .section-title {
     color: #2c3e50;
 }
@@ -157,68 +135,6 @@ img {
 
 .toggle-icon {
     font-size: 12px;
-}
-
-/* Info Icon */
-.header-info-icon {
-    display: flex;
-    align-items: center;
-    /* Vertically aligns icon and header */
-    position: relative;
-}
-
-.header-info-icon img {
-    width: 15px;
-    /* Adjust icon size as needed */
-    height: 15px;
-    cursor: pointer;
-
-}
-
-.header-info-icon img:hover {
-    filter: invert(50%);
-    /* Half inversion to avoid complete disappearance */
-}
-
-/* Tooltip styles for each specific info icon */
-#hobbies:hover::after {
-    background-color: white;
-    content: "Hover over the icons to watch them move up and down!";
-    color: black;
-    padding: 5px;
-    border: 1px solid black;
-    border-radius: 8px;
-    /* Rounded corners */
-    white-space: nowrap;
-    position: absolute;
-    z-index: 10;
-}
-
-#skills:hover::after {
-    background-color: white;
-    content: "Hard skills are measured in YEARS OF EXPERIENCE since completing undergraduate studies.";
-    color: black;
-    padding: 5px;
-    border: 1px solid black;
-    border-radius: 8px;
-    /* Rounded corners */
-    white-space: nowrap;
-    position: absolute;
-    z-index: 10;
-}
-
-#experience:hover::after,
-#projects:hover::after {
-    background-color: white;
-    content: "Click the caret for more information.";
-    color: black;
-    padding: 5px;
-    border: 1px solid black;
-    border-radius: 8px;
-    /* Rounded corners */
-    white-space: nowrap;
-    position: absolute;
-    z-index: 10;
 }
 
 /*Publications*/

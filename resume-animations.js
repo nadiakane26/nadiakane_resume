@@ -26,23 +26,6 @@ $('.toggle-icon').click(function () {
     }
 });
 
-// Hobbies icon wave animation
-$('.hobbies img').hover(
-    function () {
-        // Mouse hover over to move up the icon up
-        $(this).stop().animate({ top: '-20px' }, "slow");
-    },
-    function () {
-        // Return to original position
-        $(this).stop().animate({ top: '0' }, "slow");
-    }
-);
-// Change between light and dark-theme
-$("#theme-toggle").click(function () {
-    var element = document.body;
-    element.classList.toggle("dark-mode");
-});
-
 // Last updated div with date (manually)
 
-document.getElementById('last-updated-date').textContent = "2025-02-13"
+document.getElementById('last-updated-date').textContent = "2025-02-22"
