@@ -15,14 +15,14 @@
     <div class="sidebar">
         <!--Profile picture-->
         <img src="https://media.licdn.com/dms/image/v2/D5603AQGNdtsQYtWugg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1706103657675?e=1744848000&v=beta&t=Kfa0VqkEZPoNV4tbBsdMHc8YCmwOVRL2VKwTxY-fygo" width="150px" alt="Profile">
-        <h2 class="text-2xl font-semibold mt-6">Summary</h2>
+        <h3 class="text-2xl font-semibold mt-6">Summary</h3>
         <!--Summary Paragraph (Need to Update!)-->
         <p class = "summary">
             An emerging Software Engineer with a background in biology and newly developed expertise in full stack web development. Recently completed an intensive bootcamp through the New Vision Foundation, culminating in two impactful projects—an independent project and a client collaboration—leveraging technologies such as HTML, CSS, JavaScript, Ruby, PostgreSQL, APIs, and Ruby on Rails. Passionate about problem-solving, building user-friendly applications, and applying an analytical mindset honed through scientific training to create innovative solutions. Eager to contribute to collaborative development teams and continue growing as a software engineer.
         </p>
         
         <!--The email, phone and locations are enabled such that... -->
-        <h2 class="text-2xl font-semibold mt-6">Contact Information</h2>
+        <h3 class="text-2xl font-semibold mt-6">Contact Information</h3>
             <div class="contact-info mt-4">
                 <div class="contact-item mb-2">
                     <a href="mailto:nadia.kane26@gmail.com" target="_blank" class="flex items-center">
@@ -51,7 +51,7 @@
         
         <div class="social-links mt-4 flex space-x-4">
             <!--Social links are enabled to take you directly to my personal page for LinkedIn and Github, respectively.-->
-            <a href="https://www.linkedin.com/in/nadia-kane-54727a1a9/" target="_blank" title="LinkedIn"  class="text-blue-600 text-4xl" >
+            <a href="https://www.linkedin.com/in/nadia-kane-54727a1a9/" target="_blank" title="LinkedIn"  class="text-blue-800 text-4xl" >
                 <i class="fa-brands fa-linkedin"></i>
             </a>
             <a href="https://github.com/nadiakane26" target="_blank" title="GitHub" class="text-gray-800 text-4xl">
@@ -60,10 +60,8 @@
         </div>
 
         <div class="header-info-icon"> 
-            <h2 class="text-2xl font-semibold mt-6">Skills</h2>
-            <span id="skills">
-                <i class="fa-solid fa-circle-info"></i>
-            </span>
+            <h3 class="text-2xl font-semibold mt-6">Skills</h3>
+            
         </div>
         
         <div id="skill-container">
@@ -185,7 +183,7 @@
             </div>
         </div>
         <div class="header-info-icon"> 
-            <h2 class="text-2xl font-semibold mt-6">Hobbies</h2>
+            <h3 class="text-2xl font-semibold mt-6">Hobbies</h3>
         </div>
 
     	<div class="hobbies flex space-x-4 mt-4 text-2xl">
@@ -197,45 +195,40 @@
     	
     </div>
 
-    <div class = "main-content">
-        <div>
-            <img id="theme-toggle" src="https://cdn-icons-png.flaticon.com/128/734/734560.png" alt="Toggle Theme" width="15px">
-        </div>
-        <h1>Nadia Kane</h1>
-        <div class="section">
-            <div class="header-info-icon"> 
-            <h2>Projects</h2>
-            <span id="projects">
-                <i class="fa-solid fa-circle-info"></i>
-            </span>
+    <div class="main-content p-6 bg-gray-100">
+        <h1 class="text-4xl font-bold text-gray-800 mb-4">Nadia Kane</h1>
+        <div class="section mb-4">
+            <div class="mb-2"> 
+                <h3 class="text-2xl font-semibold text-gray-700">Projects</h3>
         </div>
 
-        <h3 class="section-title">Amanah Rec Project 
-            <span class="toggle-icon">▲</span>
-            <span class = "section-date">01/2025-02/2025</span>
-          </h3> 
-          <div class="section-desc">  
-            <ul>
-                <li>Lead a team to develop a full-stack web application for a client aimed at empowering the Muslim community through events, and community-building initiatives focused on environmental sustainability and spiritual values.</li>
+        <h3 class="section-title text-md text-gray-800 mb-2">
+            Amanah Rec Project 
+            <span class="toggle-icon text-gray-500 cursor-pointer">▲</span>
+            <span class="section-date text-gray-500 text-sm italic text-gray-500 text-sm italic">01/2025 - 02/2025</span>
+        </h3> 
+        <div class="section-desc mt-2">
+            <ul class="list-disc list-inside space-y-2 text-gray-500 mb-2">
+                <li>Lead a team to develop a full-stack web application for a client aimed at empowering the Muslim community through events and community-building initiatives focused on environmental sustainability and spiritual values.</li>
                 <li>Used tools including Miro, Trello, and Figma for planning, design, and task management during project development.</li>
-                <li>Designed and built features for user registration, activity and event management, memberships and payments using Ruby on Rails framework for frontend and backend</li>
+                <li>Designed and built features for user registration, activity and event management, memberships, and payments using Ruby on Rails framework for frontend and backend.</li>
                 <li>Integrated Stripe API to handle payments for memberships and paid events, including one-time and recurring payments.</li>
-                <li>Developed a robust admin dashboard using ActiveAdmin for managing the features of the application including: users, activities, events, payments, testimonials, board members, and media mentions.</li>
+                <li>Developed a robust admin dashboard using ActiveAdmin for managing the features of the application, including users, activities, events, payments, testimonials, board members, and media mentions.</li>
                 <li>Enhanced the user experience with various gems, including Devise for authentication and FriendlyId for human-readable URLs.</li>
                 <li>Implemented media storage with Cloudinary and used ActiveStorage for seamless image uploads.</li>
                 <li>Actively conducted code reviews to maintain code quality, ensure consistency, and mentored team members.</li>
                 <li>Maintained continuous communication with the client to gather requirements and implement feedback.</li>
                 <li>Collaborated closely with teammates through daily stand-ups and troubleshooting sessions to resolve issues effectively.</li>
-                <li>Successfully deployed the application on the Heroku platform and configured with the client's purchased domain.</li>
-              </ul>
-          </div>
+                <li>Successfully deployed the application on the Heroku platform and configured it with the client's purchased domain.</li>
+            </ul>
+        </div>
 
-          <h3 class="section-title">History Explorer     
-            <span class="toggle-icon">▲</span>
-            <span class = "section-date">12/2024-12/2024</span>
+        <h3 class="section-title text-md text-gray-800 mb-2">History Explorer     
+            <span class="toggle-icon text-gray-500 cursor-pointer">▲</span>
+             <span class="section-date text-gray-500 text-sm italic text-gray-500 text-sm italic">12/2024-12/2024</span>
           </h3> 
-          <div class="section-desc">  
-            <ul>
+          <div class="section-desc mt-2"> 
+            <ul class="list-disc list-inside space-y-2 text-gray-500 mb-2">
               <li>Designed and developed a fullstack web application to explore Minnesota historical landmarks, utilizing Miro, Trello, and Figma for planning, and built the front and backend with Ruby on Rails.</li>
               <li>Integrated Google Maps JavaScript API and Places Autocomplete API to streamline landmark creation, allowing users to enter an address that autocompletes and populates the location on an interactive map. Additionally, implemented a nearby landmarks feature based on the entered city.</li>
               <li>Enhanced the application with Rails gems for user authentication, admin access and authorization, friendly URLs, pagination, and voting functionality to improve user experience and manage features efficiently.</li>
@@ -243,106 +236,106 @@
             </ul>
           </div>
             
-            <h3 class="section-title">Thesis: Exploring Deep Neural Network for Image Registration of Whole Mouse Brain Datasets: A Comparative Framework & Challenges with State-of-the-Art Methods   
-              <span class="toggle-icon">▲</span>
-              <span class = "section-date">09/2022-05/2023</span>
+            <h3 class="section-title text-md text-gray-800 mb-2">Thesis: Exploring Deep Neural Network for Image Registration of Whole Mouse Brain Datasets: A Comparative Framework & Challenges with State-of-the-Art Methods   
+              <span class="toggle-icon text-gray-500 cursor-pointer">▲</span>
+               <span class="section-date text-gray-500 text-sm italic text-gray-500 text-sm italic">09/2022-05/2023</span>
             </h3> 
-            <div class="section-desc">  
-                <ul>
+            <div class="section-desc mt-2"> 
+                <ul class="list-disc list-inside space-y-2 text-gray-500 mb-2">
                     <li>Conducted a systematic literature search on brain image registration algorithms using deep learning techniques.</li>
                     <li>Explored the applications of open-source software VoxelMorph, SynthMorph, and EasyReg using the Command Line Interface. </li>
                     <li>Developed synthetic datasets using Lab2im algorithm and evaluated the accuracy of ANTS baseline registration using similarity metrics (DICE, recall, and precision). </li>
                     <li>Utilized a high-performance computing for setting up individual environments for algorithm testing and batch processing with SLURM job submissions in a Linux System.</li>
                 </ul>
             </div>
-            <h3 class="section-title">Herbivory Tolerance in A. thaliana: A Poisson Regression Approach
-                <span class="toggle-icon">▲</span>
-                <span class = "section-date">04/2022 - 05/2022</span>
+            <h3 class="section-title text-md text-gray-800 mb-2">Herbivory Tolerance in A. thaliana: A Poisson Regression Approach
+                <span class="toggle-icon text-gray-500 cursor-pointer">▲</span>
+                 <span class="section-date text-gray-500 text-sm italic text-gray-500 text-sm italic">04/2022 - 05/2022</span>
             </h3> 
-            <div class="section-desc">  
-                <ul>
+            <div class="section-desc mt-2"> 
+                <ul class="list-disc list-inside space-y-2 text-gray-500 mb-2">
                     <li>Studied herbivory effects on fitness and architecture in A. thaliana seed families, discovering that nutrient levels influenced plant tolerance to apical meristem damage and fruit production.</li>
                     <li>Applied generalized linear model and Poisson regression, identifying overdispersion through diagnostic plots.</li>
                     
                 </ul>
             </div>
-            <h3 class="section-title">Hidden Markov Model and Protein Secondary Structure Prediction
-              <span class="toggle-icon">▲</span>
-              <span class = "section-date">11/2021 - 12/2021</span>
+            <h3 class="section-title text-md text-gray-800 mb-2">Hidden Markov Model and Protein Secondary Structure Prediction
+              <span class="toggle-icon text-gray-500 cursor-pointer">▲</span>
+               <span class="section-date text-gray-500 text-sm italic text-gray-500 text-sm italic">11/2021 - 12/2021</span>
             </h3> 
-            <div class="section-desc">  
-                <ul>
+            <div class="section-desc mt-2"> 
+                <ul class="list-disc list-inside space-y-2 text-gray-500 mb-2">
                     <li>Applied Hidden Markov Models (HMMs) to protein secondary structure prediction by implementing and training HMMs using maximum likelihood learning and Baum-Welch algorithm.</li>
                 </ul>
             </div>
-            <h3 class="section-title">Automated Image Analysis for Cell Detection and Quantification
-              <span class="toggle-icon">▲</span>
-              <span class = "section-date">11/2021 - 12/2021</span>
+            <h3 class="section-title text-md text-gray-800 mb-2">Automated Image Analysis for Cell Detection and Quantification
+              <span class="toggle-icon text-gray-500 cursor-pointer">▲</span>
+               <span class="section-date text-gray-500 text-sm italic text-gray-500 text-sm italic">11/2021 - 12/2021</span>
             </h3> 
-            <div class="section-desc">  
-                <ul>
+            <div class="section-desc mt-2"> 
+                <ul class="list-disc list-inside space-y-2 text-gray-500 mb-2">
                     <li>Performed an image analysis workflow successfully to detect and quantify Babesiosis parasite infection in blood smear images using MATLAB toolboxes and interactive apps.</li>
                     <li>Conducted pre-processing, thresholding, edge and shape detection, and property quantification using morphological operations to refine the binary mask.</li>
                 </ul>
             </div>
-            <h3 class="section-title">Mouse Brain Spatial Transcriptomics  
-              <span class="toggle-icon">▲</span>
-              <span class = "section-date">04/2021 - 05/2021</span>
+            <h3 class="section-title text-md text-gray-800 mb-2">Mouse Brain Spatial Transcriptomics  
+              <span class="toggle-icon text-gray-500 cursor-pointer">▲</span>
+               <span class="section-date text-gray-500 text-sm italic text-gray-500 text-sm italic">04/2021 - 05/2021</span>
             </h3> 
-            <div class="section-desc">  
-                <ul>
+            <div class="section-desc mt-2"> 
+                <ul class="list-disc list-inside space-y-2 text-gray-500 mb-2">
                     <li>Used Seurat to analyze, visualize, and explore spatial transcriptomic data to study gene expression with a spatial context in tissues by visualizing using principal component analysis (PCA), clustering, and 3D Uniform Manifold Approximation (UMAP) to identify spatially variable features and integration with single-cell data.</li>
                 </ul>
             </div>
-            <h3 class="section-title">Image Quality Assessment of 3D Tissue Cleared Dataset
-              <span class="toggle-icon">▲</span>
-              <span class = "section-date">11/2020 - 12/2020</span>
+            <h3 class="section-title text-md text-gray-800 mb-4">Image Quality Assessment of 3D Tissue Cleared Dataset
+              <span class="toggle-icon text-gray-500 cursor-pointer">▲</span>
+               <span class="section-date text-gray-500 text-sm italic text-gray-500 text-sm italic">11/2020 - 12/2020</span>
             </h3> 
-            <div class="section-desc">  
-                <ul>
+            <div class="section-desc mt-2 mb-5"> 
+                <ul class="list-disc list-inside space-y-2 text-gray-500 mb-2">
                     <li>Developed a python script to quickly assess image quality of a 3D-image stack using NumPy and scikit-image packages to perform basic image manipulation and processing in Jupyter Notebook.</li>
                     <li>Generated quality control metrics for a non-standard small 3D-image stack dataset, including Signal-to-Noise Ratio (SNR), Dynamic Range, and Measurement of Transparency.</li>
                     <li>Proposed optimization for larger datasets includes applying filters to random quadrants or down sampling the image and using machine learning to compare image quality metrics.</li>
                 </ul>
             </div>
         </div>
-        <div class="section">
-            <h2>Education</h2>
-                <h3>
+        <div class="section mb-4"> 
+            <h3 class="text-2xl font-semibold text-gray-700">Education</h3>
+            <div class="mt-2">  
+            <h3>
                     <strong>Full Stack Coding Bootcamp</strong>
-                    <span class="section-date">09/2024 - 02/2025</span>
+                    <span class="section-date text-gray-500 text-sm italic">09/2024 - 02/2025</span>
                 </h3>
-                <p><em>New Vision Foundation</em></p>
+                <p class="mb-1 text-gray-500">New Vision Foundation</p>
                 <h3>
                     <strong>Master of Biological Sciences</strong> 
-                    <span class="section-date">01/2020 - 05/2023</span>
+                    <span class="section-date text-gray-500 text-sm italic">01/2020 - 05/2023</span>
                 </h3>
-                <p><em>University of Minnesota</em></p>
+                <p class="mb-1 text-gray-500">University of Minnesota</p>
             
                 <h3>
                     <strong>Bachelor of Science</strong> 
-                    <span class="section-date">09/2013 - 12/2017</span>
+                    <span class="section-date text-gray-500 text-sm italic">09/2013 - 12/2017</span>
                 </h3>
-                <p><em>University of Minnesota</em></p>
-            
+                <p class="mb-4 text-gray-500">University of Minnesota</p>
+            </div>  
                 
         </div>
-        <div class="section">
-            <div class="header-info-icon"> 
-                <h2>Experience</h2>
-                <span id="experience">
-                    <i class="fa-solid fa-circle-info"></i>
-                </span>
+        <div class="section mb-4">
+            <div> 
+                <h3 class="text-2xl font-semibold text-gray-700">Experience</h3>
+             
             </div>
 
-            <h3 class="section-title">Imaging Specialist
+            <h3 class="section-title mt-2">Imaging Specialist
               <span class="toggle-icon">▲</span>
-              <span class = "section-date">10/2019 – 06/2023</span>
+              <span class = "section-date text-gray-500 text-sm italic">10/2019 – 06/2023</span>
             </h3>
-             <p>University of Minnesota University Imaging Centers | Minneapolis, MN</p>
+             <p class="text-gray-500 mb-2">University of Minnesota University Imaging Centers | Minneapolis, MN</p>
 
-            <div class="section-desc">
-                <ul>
+           <div class="section-desc mt-2">
+            <ul class="list-disc list-inside space-y-2 text-gray-500">
+        
                     <li>Collaborated with 70+ researchers across 30+ departments at the shared research facility in conducting multidimensional and automated cellular imaging experiments using Nikon microscopy instruments (TiE, A1R, A1RMP, AXR, C2).</li>
                     <li>Trained and mentored researchers in the use of Nikon instruments and Imaging software (NIS Elements, FIJI, and Imaris).</li>
                     <li>Troubleshot complex microscopy issues for clients, such as optimizing imaging parameters to obtain higher resolution images at high speed.</li>
@@ -356,11 +349,12 @@
             
             <h3 class="section-title">Teaching Assistant (Online)
             <span class="toggle-icon">▲</span>
-            <span class = "section-date">09/2021 – 08/2022</span>
+            <span class = "section-date text-gray-500 text-sm italic">09/2021 – 08/2022</span>
             </h3>
-            <p>Harbor Education | Beijing, China</p>
-            <div class="section-desc">
-              <ul>
+            <p class="text-gray-500 mb-2">Harbor Education | Beijing, China</p>
+           <div class="section-desc mt-2">
+            <ul class="list-disc list-inside space-y-2 text-gray-500">
+        
                   <li>Taught and facilitated bilingual discussions in Introduction to Pharmaceutical Engineering & Drug Design, Stem Cell, Regenerative Medicine, and Biotechnology.</li>
                   <li>Developed and presented supplemental lecture materials, held office hours.</li>
               </ul>
@@ -368,11 +362,12 @@
 
             <h3 class="section-title">Medical Assistant
                 <span class="toggle-icon">▲</span>
-                <span class = "section-date">01/2018 - 03/2019</span>
+                <span class = "section-date text-gray-500 text-sm italic">01/2018 - 03/2019</span>
               </h3> 
-              <p>University of Minnesota Cleft & Craniofacial Clinic | Minneapolis, MN</p>
-              <div class="section-desc">  
-                  <ul>
+              <p class="text-gray-500 mb-2">University of Minnesota Cleft & Craniofacial Clinic | Minneapolis, MN</p>
+             <div class="section-desc mt-2">
+            <ul class="list-disc list-inside space-y-2 text-gray-500">  
+            
                       <li>Performed clerical tasks: dental photos, transcription, answering phones, scheduling appointments, greeting patients, and ordering supplies.</li>
                       <li>Acted as a liaison among medical staff, relaying messages to facilitate treatment and deliver test results.</li>
                       <li>Managed patient check-ins, verified demographic and insurance information, compiled forms, scheduled appointments, and updated files.</li>
@@ -386,11 +381,11 @@
 
             <h3 class="section-title">Nursing Assistant
                 <span class="toggle-icon">▲</span>
-                <span class = "section-date">06/2015 - 06/2019</span>
+                <span class = "section-date text-gray-500 text-sm italic">06/2015 - 06/2019</span>
             </h3>
-            <p>Fairview Health Services | Minneapolis, MN; Episcopal Homes of Minnesota | Saint Paul, MN</p>
-            <div class="section-desc">
-                <ul>
+            <p class="mb-4 text-gray-500">Fairview Health Services | Minneapolis, MN; Episcopal Homes of Minnesota | Saint Paul, MN</p>
+            <div class="section-desc mb-4 text-gray-500">
+                <ul class="list-disc list-inside space-y-2 text-gray-500">  
                     <li>Promoted patient health and overall wellness by assisting with daily living needs (bathing, dressing, toileting, shaving, oral hygiene, exercising) and serving meals, feeding, ambulating, turning, and positioning patients.</li>
                     <li>Conducted routine checks on patient vitals, including blood pressure, blood sugar, and heart rate.</li>
                     <li>Utilized mobility devices and mechanical lift equipment for safe patient transport.</li>
@@ -403,24 +398,24 @@
         </div>
 
         <div class="section">
-            <h2>Publications</h2>
-                <ul>
+            <h3 class="text-2xl font-semibold text-gray-700">Publications</h3>
+                <ol class = "list-decimal list-inside">
                 <li>Solhaug E, Roy R, Willey PT, Kane N, Carter C, Sanders MA. 
-                    <a href="https://doi.org/10.1093/micmic/ozad067.499" target="_blank">
+                    <a class="text-blue-600 link-with-icon" href="https://doi.org/10.1093/micmic/ozad067.499" target="_blank">
                         An Optimized Optical Clearing Pipeline for Intact 3D Plant Imaging and Visualization of Fluorescent Probes.
                     </a>
                     Microsc Microanal. 2023;29(29 Suppl 1):995-996. doi:10.1093/micmic/ozad067.499
                 </li>
-                <li>Kane N, Willey PT, Sanders MA.
-                    <a href="https://doi.org/10.1093/micmic/ozad067.1084" target="_blank">
+                <li class=" mb-4">Kane N, Willey PT, Sanders MA.
+                    <a class="text-blue-600 link-with-icon " href="https://doi.org/10.1093/micmic/ozad067.1084" target="_blank">
                          Considerations for Tissue Clearing Services in a Shared Research Facility.
                     </a>
                     Microsc Microanal. 2023;29(Supplement_1):2094-2095. doi:10.1093/micmic/ozad067.1084
                 </li>
-            </ul>
+            </ol>
         </div>
         
-        <div id="last-updated">
+        <div class= "mt-3" id="last-updated">
         <p>Last Updated: <span id="last-updated-date"></span></p>
         </div>
     </div>
