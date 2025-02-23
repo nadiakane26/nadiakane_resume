@@ -28,4 +28,4 @@ $('.toggle-icon').click(function () {
 
 // Last updated div with date (manually)
 
-document.getElementById('last-updated-date').textContent = "2025-02-22"
+document.getElementById('last-updated-date').textContent = "2025-02-23"
