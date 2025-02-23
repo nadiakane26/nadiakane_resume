@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Interactive Resume</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 <body>
@@ -12,54 +15,54 @@
     <div class="sidebar">
         <!--Profile picture-->
         <img src="https://media.licdn.com/dms/image/v2/D5603AQGNdtsQYtWugg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1706103657675?e=1744848000&v=beta&t=Kfa0VqkEZPoNV4tbBsdMHc8YCmwOVRL2VKwTxY-fygo" width="150px" alt="Profile">
-        <h2>Summary</h2>
+        <h2 class="text-2xl font-semibold mt-6">Summary</h2>
         <!--Summary Paragraph (Need to Update!)-->
         <p class = "summary">
             An emerging Software Engineer with a background in biology and newly developed expertise in full stack web development. Recently completed an intensive bootcamp through the New Vision Foundation, culminating in two impactful projects—an independent project and a client collaboration—leveraging technologies such as HTML, CSS, JavaScript, Ruby, PostgreSQL, APIs, and Ruby on Rails. Passionate about problem-solving, building user-friendly applications, and applying an analytical mindset honed through scientific training to create innovative solutions. Eager to contribute to collaborative development teams and continue growing as a software engineer.
         </p>
         
         <!--The email, phone and locations are enabled such that... -->
-        <h2>Contact Information</h2>
-            <div class="contact-info">
-                <div class="contact-item">
-                    <a href="mailto:nadia.kane26@gmail.com" target="_blank">
+        <h2 class="text-2xl font-semibold mt-6">Contact Information</h2>
+            <div class="contact-info mt-4">
+                <div class="contact-item mb-2">
+                    <a href="mailto:nadia.kane26@gmail.com" target="_blank" class="flex items-center">
                         <!--Right clicking the email icon allows you to Copy Email Address-->
-                        <img src="https://cdn-icons-png.flaticon.com/128/7887/7887710.png" alt="Email" class="contact-icon">
+                        <i class="fa-solid fa-envelope"></i> 
                     </a>
-                    <span id="email-address">nadia.kane26@gmail.com</span>
+                    <span class="ml-2" id="email-address"> nadia.kane26@gmail.com</span>
                 </div>
                 
-                <div class="contact-item">
-                    <a href="tel:+16513159870">
+                <div class="contact-item mb-2">
+                    <a href="tel:+16513159870" class="flex items-center">
                         <!--Clicking the phone icon allows you to directly start a phone call-->
-                        <img src="https://cdn-icons-png.flaticon.com/128/597/597177.png" alt="Phone" class="contact-icon">
+                        <i class="fa-solid fa-phone"></i>
                     </a>
-                    <span id="phone-number">(651) 315-9870</span>
+                    <span class="ml-2" id="phone-number">(651) 315-9870</span>
                 </div>
-                <div class="contact-item">
-                    <a href="https://maps.app.goo.gl/6zJo1Y31cR2cY85GA" target="_blank">
+                <div class="contact-item mb-2">
+                    <a href="https://maps.app.goo.gl/6zJo1Y31cR2cY85GA" target="_blank" class="flex items-center">
                         <!--Clicking the location icon takes you directly to Google Maps-->
-                        <img src="https://cdn-icons-png.flaticon.com/128/535/535188.png" alt="Location" class="contact-icon">
+                        <i class="fa-solid fa-location-dot"></i>
                     </a>
-                    <span id="location">St.Paul, MN</span>
+                    <span class="ml-2" id="location">St.Paul, MN</span>
                 </div>
 
             </div>
         
-        <div class="social-links">
+        <div class="social-links mt-4 flex space-x-4">
             <!--Social links are enabled to take you directly to my personal page for LinkedIn and Github, respectively.-->
-            <a href="https://www.linkedin.com/in/nadia-kane-54727a1a9/" target="_blank">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn">
+            <a href="https://www.linkedin.com/in/nadia-kane-54727a1a9/" target="_blank" title="LinkedIn"  class="text-blue-600 text-4xl" >
+                <i class="fa-brands fa-linkedin"></i>
             </a>
-            <a href="https://github.com/nadiakane26" target="_blank">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub">
+            <a href="https://github.com/nadiakane26" target="_blank" title="GitHub" class="text-gray-800 text-4xl">
+                <i class="fa-brands fa-github"></i>
             </a>
         </div>
 
         <div class="header-info-icon"> 
-            <h2>Skills</h2>
+            <h2 class="text-2xl font-semibold mt-6">Skills</h2>
             <span id="skills">
-                <img src="https://cdn-icons-png.flaticon.com/128/665/665049.png" alt="Info">
+                <i class="fa-solid fa-circle-info"></i>
             </span>
         </div>
         
@@ -182,18 +185,15 @@
             </div>
         </div>
         <div class="header-info-icon"> 
-            <h2>Hobbies</h2>
-            <span id="hobbies">
-                <img src="https://cdn-icons-png.flaticon.com/128/665/665049.png" alt="Info">
-            </span>
+            <h2 class="text-2xl font-semibold mt-6">Hobbies</h2>
         </div>
 
-    	<div class = "hobbies">
-        	<img src="https://cdn-icons-png.flaticon.com/128/10867/10867358.png" alt = "Cycling">
-        	<img src="https://cdn-icons-png.flaticon.com/128/1165/1165187.png" alt = "Soccer">
-        	<img src="https://cdn-icons-png.flaticon.com/128/10484/10484677.png" alt = "History">
-        	<img src="https://cdn-icons-png.flaticon.com/128/7503/7503792.png" alt = "Hiking">
-    	</div>
+    	<div class="hobbies flex space-x-4 mt-4 text-2xl">
+            <i class="fa-solid fa-bicycle" title="Cycling"></i> 
+            <i class="fa-solid fa-futbol" title="Soccer"></i> 
+            <i class="fa-solid fa-landmark" title="History"></i> 
+            <i class="fa-solid fa-hiking" title="Hiking"></i> 
+        </div>
     	
     </div>
 
@@ -206,7 +206,7 @@
             <div class="header-info-icon"> 
             <h2>Projects</h2>
             <span id="projects">
-                <img src="https://cdn-icons-png.flaticon.com/128/665/665049.png" alt="Info">
+                <i class="fa-solid fa-circle-info"></i>
             </span>
         </div>
 
@@ -331,7 +331,7 @@
             <div class="header-info-icon"> 
                 <h2>Experience</h2>
                 <span id="experience">
-                    <img src="https://cdn-icons-png.flaticon.com/128/665/665049.png" alt="Info">
+                    <i class="fa-solid fa-circle-info"></i>
                 </span>
             </div>
 
