@@ -22,31 +22,6 @@ img {
     margin-right: auto;
 }
 
-
-/*Contact Information */
-.contact-info {
-    display: flex;
-    flex-direction: column;
-    /* Stack icons vertically */
-    margin: 10px 0;
-    /*top and bottom margins are 10px, right and left margins are 0 */
-    align-items: center;
-}
-
-/* Text displayed using flex to align the icon and text horizontally. */
-.contact-item {
-    display: flex;
-    margin-bottom: 10px;
-}
-
-/* Skill */
-#skill-container {
-    display: flex;
-    /* Use flexbox for the container */
-    flex-direction: column;
-    /* Stack items vertically */
-}
-
 .skill {
     display: flex;
     /* Use flexbox for each skill item */
@@ -62,32 +37,15 @@ img {
     height: 3px;
     background-color: lightgray;
     width: 100px;
-    /* Set a fixed width for the progress bar */
+    border-radius: 20px;
 }
 
 .progress {
     background-color: #2c3e50;
     height: 100%;
+    border-radius: 20px;
 }
 
-.hobbies {
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-
-}
-
-.main-content {
-    width: 800px;
-    text-align: justify;
-    display: flex;
-    /* Use flexbox */
-    flex-direction: column;
-    /* Stack children vertically */
-    justify-content: space-between;
-    /* Space out children evenly */
-    height: 100%;
-}
 
 /* Section: Experiences, Education, Publications, Project */
 .section {
@@ -104,28 +62,11 @@ img {
     margin-top: 10px;
 }
 
-.section-date {
-    color: #7f8c8d;
-}
-
 .toggle-icon {
     font-size: 12px;
 }
 
 /*Publications*/
-
-.section a {
-    color: #1a0dab;
-    /* Link color */
-    text-decoration: none;
-    /* Remove underline */
-}
-
-.section a:hover {
-    text-decoration: none;
-    color: #655fad;
-    /* Add underline on hover */
-}
 
 #last-updated {
     text-align: center;

@@ -25,7 +25,3 @@ $('.toggle-icon').click(function () {
         $(this).text('▲');  // When collapsed, arrow points up
     }
 });
-
-// Last updated div with date (manually)
-
-document.getElementById('last-updated-date').textContent = "2025-02-23"
