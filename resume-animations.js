@@ -1,3 +1,7 @@
+document.addEventListener('DOMContentLoaded', function () {
+    alert('JavaScript is running on mobile!');
+});
+
 // Toggle function by selecting the caret for more details of Experiences and Projects
 $('.toggle-icon').click(function () {
     const $sectionTitle = $(this).closest('.section-title');
