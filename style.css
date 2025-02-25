@@ -138,6 +138,12 @@ img {
     white-space: nowrap; 
 }
 
+.tooltip-text.long {
+  white-space: normal; /* Allow wrapping */
+  width: 350px; 
+  line-height: 1.5;
+}
+
 
 .tooltip-container:hover .tooltip-text {
     visibility: visible;
