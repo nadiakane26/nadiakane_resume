@@ -11,6 +11,7 @@ $('.toggle-icon').click(function () {
 });
 
 function toggleSidebar() {
+    e.preventDefault(); 
     const sidebar = document.getElementById("sidebar");
     sidebar.classList.toggle("-translate-x-full");
 }
