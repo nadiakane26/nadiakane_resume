@@ -25,3 +25,8 @@ $('.toggle-icon').click(function () {
         $(this).text('▲');  // When collapsed, arrow points up
     }
 });
+
+function toggleSidebar() {
+    const sidebar = document.getElementById("sidebar");
+    sidebar.classList.toggle("-translate-x-full");
+}
