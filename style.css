@@ -18,8 +18,7 @@ img {
     border-radius: 50%;
     /*To center an image */
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
 
 .skill {
@@ -62,57 +61,12 @@ img {
     margin-top: 10px;
 }
 
-.toggle-icon {
-    font-size: 12px;
-}
 
 /*Publications*/
-
-#last-updated {
-    text-align: center;
-    /* Center the text */
-    font-size: 0.9em;
-    /* Adjust font size as needed */
-    color: #666;
-    /* Change color to match your design */
-    position: relative;
-}
 
 .link-with-icon::after {
     content: '↗'; /* Arrow icon */
 }
-
-@keyframes customBounce {
-    0%, 100% {
-      transform: translateY(0);
-    }
-    50% {
-      transform: translateY(-10px);
-    }
-  }
-  
-  .hover\:animate-bounce:hover {
-    animation: customBounce 1.0s ease-in-out;
-  }
-  
-  .delay-0 {
-    animation-delay: 0s;
-  }
-  .delay-200 {
-    animation-delay: 0.2s;
-  }
-  .delay-400 {
-    animation-delay: 0.4s;
-  }
-  .delay-600 {
-    animation-delay: 0.6s;
-  }
-
-  .group-hover\:opacity-100:hover .group-hover\:visible {
-    opacity: 1;
-    visibility: visible;
-}
-
 .tooltip-container {
     position: relative;
     display: inline-block;
@@ -128,7 +82,7 @@ img {
     border-radius: 5px;
     padding: 5px;
     position: absolute;
-    z-index: 1;
+    z-index: 9999;
     left: 119%; /* Position to the right of the icon */
     top: 50%; /* Center vertically */
     transform: translateY(-50%); /* Adjust vertical alignment */
