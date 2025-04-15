@@ -16,4 +16,3 @@ This is an interactive resume portfolio that allows viewers to interact with dif
 - JavaScript 
 
 ## Notes
-The sidebar toggle works in Safari but not in Chrome on your mobile device
