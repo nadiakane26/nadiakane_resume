@@ -1,4 +1,4 @@
-# Interactive Resume Profolio
+# Interactive Resume Portfolio
 ## Overview
 This is an interactive resume portfolio that allows viewers to interact with different elements and sections of the resume. The project utilizes **Tailwind CSS** and **DaisyUI** for styling and **Font Awesome** for icons, creating a modern and responsive design.
 
